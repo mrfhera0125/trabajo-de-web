@@ -1,0 +1,172 @@
+/* Reset de estilos */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333; /* Cambiar color de fondo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Alinear elementos */
+}
+
+nav ul li {
+    margin: 0 10px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    color: white; /* Color de texto */
+    text-decoration: none;
+    padding: 10px 15px; /* Espaciado dentro de los elementos */
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cambiar color de fondo al pasar el ratón */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia {
+    display: flex;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.imagen {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.texto {
+    padding: 20px;
+}
+
+.titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.contenido {
+    margin-top: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('imagenes/fondo-textura-papel-arrugado-negro-oscuro-cerca_99266-411.avif'); 
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    color: green; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.horario {
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.clase {
+    background-color: #f0f8ff; /* Color de fondo de las clases */
+}
+
+.clase:nth-child(odd) {
+    background-color: #e0f2f1; /* Color de fondo de las clases impares */
+}
+
+.clase:nth-child(even) {
+    background-color: #fff9c4; /* Color de fondo de las clases pares */
+}
+
+.sabado {
+    background-color: #ffebee; /* Color de fondo para el sábado */
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.horario {
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.clase {
+    background-color: #f0f8ff; /* Color de fondo de las clases */
+}
+
+.clase:nth-child(odd) {
+    background-color: #e0f2f1; /* Color de fondo de las clases impares */
+}
+
+.clase:nth-child(even) {
+    background-color: #fff9c4; /* Color de fondo de las clases pares */
+}
+
+.sabado {
+    background-color: #ffebee; /* Color de fondo para el sábado */
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
